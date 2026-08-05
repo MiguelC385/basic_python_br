@@ -164,20 +164,21 @@ json.loads('{"edad":30}')
 
 ## Tópico 14. Taller práctico (Al final de cada uno mostrar en pantalla el resultado)
 
-1. Crear variable nombre 
-2. Sumar dos números 
-3. Validar número par  
-4. Recorrer lista  
-5. Función multiplicar  
-6. Diccionario persona  
-7. Mostrar claves  
-8. Clase Producto  
-9. Try/except  
-10. Lista 1–10  
-11. Duplicar lista  
-12. Mayor de dos  
-13. Leer archivo  
-14. Dict a JSON  
+1. Crear variable curso, semestre, nombre
+2. Solicite dos números al usuario. Muestre el resultado de la suma, resta, multiplicación, división, división entera, módulo y potencia.
+3. Solicite un número entero. Validar si es par, muestre el mensaje "El número es par". Si es impar, conviértalo al siguiente número par y muestre el resultado.
+4. Utilice un ciclo for para imprimir los números del 1 al 20. Indique cuáles son pares y cuáles son impares.
+5. Cree una función multiplicar(a, b) que reciba dos números y retorne su producto. Llame la función e imprima el resultado.  
+6. Cree un diccionario persona con las claves nombre, edad, carrera y ciudad y muestre toda su información.
+7. Recorra el diccionario persona mostrando sus claves, sus valores y cada par clave–valor.
+8. Cree una clase Producto con los atributos nombre, precio y cantidad, agregue un método para calcular el valor total del inventario y muestre el resultado.
+9. Solicite dos números y realice una división utilizando try/except para manejar divisiones por cero o entradas inválidas.
+10. Cree una lista con los números del 1 al 10 y muestre la lista completa, el primer elemento, el último y la cantidad de elementos.
+11. Cree una nueva lista a partir de la anterior donde cada número esté duplicado y muestre ambas listas.
+12. Cree una función que reciba dos números y muestre cuál es el mayor o indique si ambos son iguales.
+13. Lea el contenido de un archivo datos.txt utilizando manejo de excepciones y muestre el contenido o el mensaje de error correspondiente.
+14. Convierta el diccionario persona a formato JSON utilizando el módulo json y muestre el resultado en pantalla.
+15. Cree una lista con tres objetos de la clase Producto, calcule el valor total del inventario y exporte la información a un archivo JSON.
 
 ---
 
